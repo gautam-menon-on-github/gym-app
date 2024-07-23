@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blueShadow {
+    box-shadow: 3px 3px 0 0 #60a5fa;
+    transition: 0.15s;
+}
+
+.blueShadow:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 0 0 #60a5fa;
+}
+
+/* HAHAHAHAHA TRY THIS (TAKEN FROM KHROMA.CO) */
+/* .my-gradient {
+    background: linear-gradient(rgb(13, 73, 141), rgb(19, 91, 159), rgb(23, 110, 177), rgb(26, 129, 195), rgb(28, 149, 214));
+} */
+
+span {
+    font-family: inherit;
+}
